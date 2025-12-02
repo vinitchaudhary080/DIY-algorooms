@@ -25,7 +25,7 @@ export default function ContactHero() {
           </span>
           Let’s Build the <span className="text-[#3B66F6]">Future</span>
           <br />
-          
+
           <span className="text-neutral-900">of Trading Together.</span>
         </h1>
 
@@ -34,29 +34,30 @@ export default function ContactHero() {
           Have a question, partnership idea, or need product support?
           <br className="hidden sm:block" />
           Our team is here to help you automate smarter, trade faster, and grow stronger.
- Reach out anytime because every great strategy begins with a conversation.
+          Reach out anytime because every great strategy begins with a conversation.
         </p>
 
         {/* CTA */}
         <div className="mt-6">
           <a
-            href="https://wa.me/917049850866?text=Hi!%20I%20want%20to%20chat%20with%20Algorooms."
+            href="https://wa.me/917042132888?text=Hi%20team%2C%20I%20want%20to%20know%20more%20about%20the%20Algorooms%20dashboard%20and%20how%20to%20get%20started."
             target="_blank"
             rel="noopener noreferrer"
             className="
-              inline-flex items-center gap-2
-              rounded-2xl
-              px-5 py-3
-              text-[15px] font-semibold text-white
-              bg-gradient-to-r from-[#3B66F6] to-[#1E4CEA]
-              shadow-[0_10px_30px_rgba(40,100,223,0.35)]
-              border-3 border-[#6C88FF]
-              transition-all
-              hover:shadow-[0_14px_36px_rgba(40,100,223,0.45)]
-            "
+    inline-flex items-center gap-2
+    rounded-2xl
+    px-5 py-3
+    text-[15px] font-semibold text-white
+    bg-gradient-to-r from-[#3B66F6] to-[#1E4CEA]
+    shadow-[0_10px_30px_rgba(40,100,223,0.35)]
+    border-3 border-[#6C88FF]
+    transition-all
+    hover:shadow-[0_14px_36px_rgba(40,100,223,0.45)]
+  "
           >
             Chat Now →
           </a>
+
         </div>
       </div>
     </section>

@@ -34,27 +34,28 @@ export default function AboutHero() {
           {/* Subtext */}
           <p className="mt-4 max-w-xl mx-auto text-[15px] text-neutral-600">
             Your trading deserves more than guesswork it needs precision, speed, and control.
- We build intelligent tools that simplify algorithmic trading for everyone from beginners to <professionals className="br">Empowering you to design, test, and automate strategies that perform, every single time.</professionals>
+            We build intelligent tools that simplify algorithmic trading for everyone from beginners to <professionals className="br">Empowering you to design, test, and automate strategies that perform, every single time.</professionals>
           </p>
 
           {/* CTA */}
           <div className="mt-6">
             <a
-              href="#get-started"
+              href="https://dashboard.algorooms.com/signin"
               className="
-                inline-flex items-center gap-2
-                rounded-2xl
-                px-5 py-3
-                text-[15px] font-semibold text-white
-                bg-gradient-to-r from-[#3B66F6] to-[#1E4CEA]
-                shadow-[0_10px_30px_rgba(40,100,223,0.35)]
-                border-3 border-[#6C88FF]
-                transition-all
-                hover:shadow-[0_14px_36px_rgba(40,100,223,0.45)]
-              "
+    inline-flex items-center gap-2
+    rounded-2xl
+    px-5 py-3
+    text-[15px] font-semibold text-white
+    bg-gradient-to-r from-[#3B66F6] to-[#1E4CEA]
+    shadow-[0_10px_30px_rgba(40,100,223,0.35)]
+    border-3 border-[#6C88FF]
+    transition-all
+    hover:shadow-[0_14px_36px_rgba(40,100,223,0.45)]
+  "
             >
               Get started →
             </a>
+
           </div>
         </div>
       </div>

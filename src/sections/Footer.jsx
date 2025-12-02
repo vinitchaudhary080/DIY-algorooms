@@ -26,36 +26,36 @@ export default function Footer() {
           </h2>
 
           <h2 className="text-[36px] sm:text-[48px] md:text-[56px] font-black font-semibold leading-[1.15] tracking-tight text-neutral-900 text-center">
-             for your Trading Potential
+            for your Trading Potential
           </h2>
         </div>
 
         {/* Subtitle */}
         <p className="mt-4 max-w-2xl mx-auto text-[15px] text-neutral-600">
           Simplify your strategy, automate trades, and execute with confidence.
-          
+
         </p>
 
         {/* Button */}
         <div className="mt-6">
           <a
-            href="https://wa.me/917049850866"
-            target="_blank"
-            rel="noreferrer"
+            href="https://dashboard.algorooms.com/signin"
             className="
-              inline-flex items-center gap-2
-              rounded-2xl
-              px-5 py-3
-              text-[15px] font-semibold text-white
-              bg-gradient-to-r from-[#3B66F6] to-[#1E4CEA]
-              shadow-[0_10px_30px_rgba(40,100,223,0.35)]
-              border-3 border-[#6C88FF]
-              transition-all
-              hover:shadow-[0_14px_36px_rgba(40,100,223,0.45)]
-            "
+    inline-flex items-center gap-2
+    rounded-2xl
+    px-5 py-3
+    text-[15px] font-semibold text-white
+    bg-gradient-to-r from-[#3B66F6] to-[#1E4CEA]
+    shadow-[0_10px_30px_rgba(40,100,223,0.35)]
+    border-3 border-[#6C88FF]
+    transition-all
+    hover:shadow-[0_14px_36px_rgba(40,100,223,0.45)]
+  "
           >
-            Book a call now →
+            Get Started Free →
           </a>
+
+
         </div>
       </div>
 
@@ -67,43 +67,43 @@ export default function Footer() {
             <div>
               <Link to="/" className="flex items-center gap-2">
                 <img src={logo} alt="Algorooms" className="h-6 w-auto" />
-               
+
               </Link>
 
               <p className="mt-3 text-sm text-neutral-600 max-w-xs leading-relaxed">
-                 Simplifying trading with smart strategies and seamless automation.
+                Simplifying trading with smart strategies and seamless automation.
               </p>
 
               <div className="mt-4 flex items-center gap-3">
+                {/* YouTube */}
                 <a
-                  href="#"
-                  aria-label="X"
+                  href="https://www.youtube.com/@AlgoRooms/featured"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="YouTube"
                   className="inline-flex h-8 w-8 items-center justify-center rounded-md ring-1 ring-neutral-300 hover:bg-neutral-50 transition"
                 >
-                  <Twitter className="h-4 w-4 text-neutral-900" />
+                  <svg
+                    className="h-4 w-4 text-neutral-900"
+                    fill="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M23.498 6.186a2.974 2.974 0 00-2.09-2.103C19.505 3.5 12 3.5 12 3.5s-7.505 0-9.408.583A2.974 2.974 0 00.502 6.186 31.51 31.51 0 000 12a31.51 31.51 0 00.502 5.814 2.974 2.974 0 002.09 2.103C4.495 20.5 12 20.5 12 20.5s7.505 0 9.408-.583a2.974 2.974 0 002.09-2.103A31.51 31.51 0 0024 12a31.51 31.51 0 00-.502-5.814zM9.75 15.568V8.432L15.818 12 9.75 15.568z" />
+                  </svg>
                 </a>
+
+                {/* LinkedIn */}
                 <a
-                  href="#"
+                  href="https://www.linkedin.com/company/algorooms123/"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   aria-label="LinkedIn"
                   className="inline-flex h-8 w-8 items-center justify-center rounded-md ring-1 ring-neutral-300 hover:bg-neutral-50 transition"
                 >
                   <Linkedin className="h-4 w-4 text-neutral-900" />
                 </a>
-                <a
-                  href="#"
-                  aria-label="Facebook"
-                  className="inline-flex h-8 w-8 items-center justify-center rounded-md ring-1 ring-neutral-300 hover:bg-neutral-50 transition"
-                >
-                  <Facebook className="h-4 w-4 text-neutral-900" />
-                </a>
-                <a
-                  href="#"
-                  aria-label="Instagram"
-                  className="inline-flex h-8 w-8 items-center justify-center rounded-md ring-1 ring-neutral-300 hover:bg-neutral-50 transition"
-                >
-                  <Instagram className="h-4 w-4 text-neutral-900" />
-                </a>
               </div>
+
 
               <p className="mt-6 text-xs text-neutral-500">
                 ©2025 Algorooms. All rights reserved.

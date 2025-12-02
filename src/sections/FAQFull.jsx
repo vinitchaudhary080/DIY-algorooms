@@ -2,94 +2,51 @@ import React, { useState } from "react";
 
 const faqs = [
   {
-    q: "Is Algo trading profitable?",
-    a: "Yes, if your strategy is precise and risk-managed. Algorithms only amplify discipline, not luck.",
+    q: "What does this platform actually do?",
+    a: "It’s your personal trading workshop. You get to create, test, and automate your own strategies—no coding required. We provide the tools, the data, and the execution engine. You bring the ideas, the curiosity, and the strategy.",
   },
   {
-    q: "What is backtesting and why is it important?",
-    a: "It verifies your strategy on historical market data, including costs. If it fails in testing, it will fail twice as hard in live markets.",
+    q: "Does the platform give trading advice or tips?",
+    a: "Nope. And that’s the point. Instead of following someone else’s signals, you get to make your own decisions, run your own strategies, and learn along the way. The platform is your canvas—you paint your own picture.",
   },
   {
-    q: "What kind of crypto strategies can I automate?",
-    a: "Trend-following, arbitrage, grid, and mean-reversion strategies perform well when automated with proper execution controls.",
+    q: "Who controls the results?",
+    a: "You do. Every trade, every rule, every strategy outcome is yours. The platform doesn’t make decisions for you—it executes exactly what you design. Wins or losses? That’s part of your journey.",
   },
   {
-    q: "Do I need a broker to start algo trading?",
-    a: "Yes. You must connect an API-supported broker or exchange so algorithms can execute trades in real-time.",
+    q: "Can I run multiple strategies at the same time?",
+    a: "Yes. Run several strategies simultaneously. Each one is independent, so you can test different approaches, explore multiple ideas, and manage risk across them.",
   },
   {
-    q: "Can beginners use algo trading?",
-    a: "Beginners can start with simple automated strategies. With consistent testing and iteration, complexity can increase safely.",
+    q: "Is this suitable for beginners?",
+    a: "Absolutely—if you’re curious and willing to learn. You don’t need coding skills. Just a basic understanding of trading concepts and risk awareness, and you can start trading, testing, and learning by doing.",
   },
   {
-    q: "How does crypto volatility affect automated trading?",
-    a: "Volatility creates opportunity, but also risk. Algorithms must include stop-loss and capital protection rules.",
+    q: "Is my personal and trading data secure?",
+    a: "Yes. Everything—from your account info to API keys—is encrypted and protected. Your strategies and data stay safe, so you can focus on trading, not worrying about security.",
   },
   {
-    q: "How transparent are trades and logs?",
-    a: "You get detailed logs, performance metrics, and real-time monitoring so you always understand what your system is doing.",
+    q: "Can I backtest my strategies before using real money?",
+    a: "Absolutely. Backtesting lets you simulate your strategies on historical data, so you can tweak, refine, and optimize before putting real money on the line. It’s like a sandbox for your ideas.",
   },
   {
-    q: "How are fees and commissions handled?",
-    a: "Fees depend on your broker or exchange. They are applied on every executed order, and algorithms calculate net results accordingly.",
+    q: "Can I automate trades with my broker account?",
+    a: "Yes. Connect your broker securely through supported APIs. Automation executes your rules exactly as you set them—saving time, reducing mistakes, and keeping you in full control.",
   },
   {
-    q: "Can algorithms go wrong?",
-    a: "Yes. Bugs or poor strategy logic cause instant losses. Always validate, simulate, and monitor your systems.",
+    q: "Is automation guaranteed to work perfectly every time?",
+    a: "No system is perfect. Broker glitches, API hiccups, network issues, or sudden market changes can affect execution. But the platform is designed to run your strategies as reliably as possible, so you can focus on what matters—building better strategies.",
   },
   {
-    q: "Can I use third-party bots or strategies?",
-    a: "Yes, as long as they are trusted, well-tested, and compatible with your platform and broker.",
+    q: "What happens if market conditions change suddenly?",
+    a: "Markets move fast—and so should you. Automation applies your rules consistently, but it can’t predict surprises. You stay in control, adjust strategies as needed, and the platform keeps executing your logic seamlessly.",
   },
   {
-    q: "How do taxes work in automated trading?",
-    a: "Profits are taxed just like manual trading. Keep accurate logs for reporting and compliance.",
-  },
-  {
-    q: "How do I choose the right platform?",
-    a: "Prioritize execution speed, risk controls, transparency, and strong broker connectivity. Anything less is a liability.",
-  },
-  {
-    q: "Best automated trading software for beginners?",
-    a: "Choose tools that simplify execution and offer proven starter strategies. Avoid platforms that require coding from day one.",
-  },
-  {
-    q: "How to use algo trading platforms in India?",
-    a: "Create an account, connect a SEBI-registered API broker, build or import strategies, backtest, then deploy with active monitoring.",
-  },
-  {
-    q: "Affordable algorithmic trading software?",
-    a: "Low cost only matters if execution quality is high. Cheap platforms that freeze during volatility cost more in losses.",
-  },
-  {
-    q: "Top trading bots for the stock market?",
-    a: "Bots that combine strong signal logic with strict exit rules and fast order routing perform best in real markets.",
-  },
-  {
-    q: "What is a no-code trading strategy builder?",
-    a: "A visual rule builder that converts your logic into automated execution. Useful for beginners if the logic blocks support real-world trading conditions.",
-  },
-  {
-    q: "How fast is real-time order execution?",
-    a: "Execution happens instantly based on live price triggers. Slippage tolerance and routing logic protect order quality.",
-  },
-  {
-    q: "What is broker integration in automated trading?",
-    a: "It connects your platform to your broker’s API, enabling direct trade execution and accurate portfolio syncing.",
-  },
-  {
-    q: "How does backtesting help traders?",
-    a: "It reveals if strategies survive past volatility while including slippage and fees. Unrealistic backtests equal real losses.",
-  },
-  {
-    q: "What is an AI-powered trading bot?",
-    a: "Systems that adapt to market regimes based on data patterns. Most tools claim AI, very few demonstrate real adaptation.",
-  },
-  {
-    q: "What matters in visual strategy software?",
-    a: "Data quality, execution rules, supported exit logic, and honest performance tracking. Interface alone means nothing.",
+    q: "Can I do paper trading (forward testing) on the platform?",
+    a: "Yes! Algorooms lets you simulate live trades without risking real money. Forward testing helps you see how your strategies perform in real market conditions, refine your rules, and gain confidence before going live.",
   },
 ];
+
 
 export default function FAQ() {
   const [open, setOpen] = useState(null);

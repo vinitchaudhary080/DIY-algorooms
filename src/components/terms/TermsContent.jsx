@@ -2,125 +2,105 @@ import React from "react";
 
 const SECTIONS = [
   {
-    id: "introduction",
+    id: "what-this-platform-is",
     n: 1,
-    title: "Introduction",
-    body: `These Terms and Conditions ("Terms") govern your access and use of Cryptomaty,
-an algorithmic crypto trading platform and marketplace. By using our services,
-you agree to these Terms. If you do not agree, please refrain from using our platform.`,
+    title: "What This Platform Is",
+    body: `This platform is a Do-It-Yourself (DIY) algorithmic trading automation tool. It allows you to design, backtest, and deploy proprietary trading strategies using your own parameters. Think of it as your personal laboratory for strategy innovation.
+
+We provide the technology stack, data streams, and execution engine; you provide the strategic logic, rules, and oversight. This platform does not offer financial advice, stock tips, or guaranteed returns.`,
   },
   {
-    id: "eligibility",
+    id: "your-responsibilities",
     n: 2,
-    title: "Eligibility",
-    body: `You must be at least 18 years of age and capable of entering into a legally
-binding agreement under Indian law. You may be required to complete KYC verification
-in compliance with regulatory norms.`,
+    title: "Your Responsibilities",
+    body: `By using the platform, you agree to:`,
+    bullets: [
+      "Develop your strategies with diligence and responsibility.",
+      "Understand that all outcomes—gains, losses, or performance metrics—are entirely your own.",
+      "Monitor, adjust, and optimize strategies as needed for performance.",
+      "Comply with all applicable trading regulations and legal requirements in your jurisdiction.",
+    ],
   },
   {
-    id: "account-responsibilities",
+    id: "non-advisory-statement",
     n: 3,
-    title: "Account Responsibilities",
-    body: `You are responsible for maintaining the confidentiality of your account credentials
-and activities conducted under your account. Promptly notify us of any unauthorized
-access or use of your account.`,
+    title: "Non-Advisory Statement",
+    body: `The platform is designed to empower you with complete control over your trading logic. While we do not provide financial advice, investment recommendations, or trading signals, you retain the freedom to conceptualize, test, and execute strategies independently.
+
+This ensures a transparent, compliant, and safe environment while allowing you to experiment, learn, and optimize your own decision-making.`,
   },
   {
-    id: "use-of-platform",
+    id: "how-automation-works",
     n: 4,
-    title: "Use of Platform and Marketplace",
-    body: `Our platform offers algorithmic trading tools and a marketplace for strategies.
-You acknowledge that:`,
+    title: "How Automation Works",
+    body: `Automated execution relies on multiple factors:`,
     bullets: [
-      "All trading involves significant financial risk.",
-      "You are solely responsible for evaluating and using any third-party strategies listed.",
-      "We do not guarantee any profits or results.",
+      "Broker API integration and system performance",
+      "Market microstructure, liquidity, and volatility",
+      "Network stability and latency",
     ],
   },
   {
-    id: "financial-obligations",
+    id: "acceptable-use",
     n: 5,
-    title: "Financial Obligations",
-    body: `Usage of paid features or strategy subscriptions may incur fees as specified on our
-pricing page. Users are responsible for any applicable taxes (including 30% income tax
-and 1% TDS on crypto profits in India).`,
-  },
-  {
-    id: "intellectual-property",
-    n: 6,
-    title: "Intellectual Property",
-    body: `All content, trademarks, logos, and proprietary algorithms are protected by
-intellectual property laws. You may not reproduce, distribute, or create derivative
-works without explicit permission.`,
-  },
-  {
-    id: "user-conduct",
-    n: 7,
-    title: "User Conduct",
-    body: "Users must not:",
+    title: "Acceptable Use",
+    body: `You agree that you will not:`,
     bullets: [
-      "Engage in illegal activities such as money laundering or fraud.",
-      "Reverse-engineer or exploit platform vulnerabilities.",
-      "Misuse the strategy marketplace or engage in manipulation or plagiarism.",
+      "Claim the platform provides financial advice, trading recommendations, or guaranteed returns.",
+      "Share your account credentials, API keys, or access with others.",
+      "Copy, distribute, sell, or publicly disclose platform-provided templates, strategies, data, or code without authorization.",
+      "Reverse-engineer, tamper with, or exploit the software or its features.",
+      "Upload malicious software, viruses, or harmful content.",
+      "Use the platform to mislead, defraud, or manipulate any party.",
+      "Employ unofficial tools, scripts, or bots that interfere with platform functionality.",
     ],
   },
   {
-    id: "third-party-services",
-    n: 8,
-    title: "Third-Party Services",
-    body: `Our platform may integrate with third-party exchanges and APIs. We are not
-responsible for the availability, accuracy, or security of third-party services.`,
-  },
-  {
-    id: "disclaimer",
-    n: 9,
-    title: "Disclaimer of Warranties",
-    body: `All services are provided on an "as is" and "as available" basis. We disclaim all
-warranties, express or implied, including merchantability, fitness for a particular
-purpose, and non-infringement.`,
+    id: "subscription-billing",
+    n: 6,
+    title: "Subscription & Billing",
+    bullets: [
+      "Subscription fees are charged according to the plan you select.",
+      "All payments are non-refundable and cannot be canceled once made.",
+      "Subscriptions remain active for the purchased period; access continues until the period expires.",
+      "Billing is transparent—there are no hidden charges or surprises.",
+    ],
   },
   {
     id: "limitation-liability",
-    n: 10,
+    n: 7,
     title: "Limitation of Liability",
-    body: `Cryptomaty shall not be liable for any direct, indirect, incidental, or consequential
-damages arising from your use of our platform, including loss of profits, data, or trading capital.`,
+    bullets: [
+      "The platform is not responsible for financial loss, strategy underperformance, or missed opportunities.",
+      "Any loss resulting from strategy execution is solely the user’s responsibility.",
+      "We are not liable for technical disruptions, API issues, or unforeseen market events.",
+      "This platform is a tool for strategy execution, not a financial solution or advisory service.",
+    ],
   },
   {
-    id: "indemnification",
-    n: 11,
-    title: "Indemnification",
-    body: `You agree to indemnify and hold Cryptomaty, its officers, employees, and partners
-harmless from any claims, damages, or liabilities resulting from your use of our platform
-or violation of these Terms.`,
-  },
-  {
-    id: "modifications",
-    n: 12,
-    title: "Modifications",
-    body: `We reserve the right to modify these Terms at any time. Users will be notified via
-email or on-platform notices. Continued use after changes constitutes acceptance of updated Terms.`,
-  },
-  {
-    id: "termination",
-    n: 13,
-    title: "Termination",
-    body: `We may terminate or suspend your account for violations of these Terms, suspicious
-activity, or legal obligations. You may also close your account at any time.`,
+    id: "account-termination",
+    n: 8,
+    title: "Account Termination",
+    bullets: [
+      "Terms of use are violated.",
+      "Illegal, manipulative, or unethical activity occurs.",
+      "Regulatory compliance is at risk.",
+    ],
+    body: `Where feasible, notice will be provided; in urgent circumstances, immediate action may be taken.`,
   },
   {
     id: "governing-law",
-    n: 14,
-    title: "Governing Law and Jurisdiction",
-    body: `These Terms are governed by the laws of India. Any disputes will be subject to the
-exclusive jurisdiction of the courts in Mumbai, Maharashtra.`,
+    n: 9,
+    title: "Governing Law",
+    body: `These terms are governed by the laws of India. Users are responsible for understanding and complying with all local trading and financial regulations.`,
   },
   {
-    id: "contact",
-    n: 15,
-    title: "Contact Us",
-    body: `For any queries regarding these Terms, contact us at:
-Email: support@cryptomaty.com`,
+    id: "final-user-acknowledgement",
+    n: 10,
+    title: "Final User Acknowledgement",
+    body: `By using this platform, you agree:
+
+“I understand that this platform is a DIY trading automation tool. I am fully responsible for the strategies I create and the outcomes they generate. The platform provides technology and infrastructure, not financial advice or guarantees.”`,
   },
 ];
 
@@ -142,9 +122,13 @@ export default function TermsContent() {
                 </div>
 
                 {/* body */}
-                <p className="mt-3 text-neutral-700 whitespace-pre-line">{s.body}</p>
+                {s.body && (
+                  <p className="mt-3 text-neutral-700 whitespace-pre-line">
+                    {s.body}
+                  </p>
+                )}
 
-                {/* optional bullets */}
+                {/* bullets */}
                 {s.bullets?.length ? (
                   <ul className="mt-3 list-disc pl-6 text-neutral-700 space-y-1">
                     {s.bullets.map((b, i) => (
@@ -158,7 +142,6 @@ export default function TermsContent() {
             ))}
           </ol>
 
-          {/* meta (optional) */}
           <div className="mt-8 flex items-center gap-3 text-xs text-neutral-500">
             <span className="inline-flex items-center rounded-md bg-green-100 px-2 py-0.5 font-semibold text-green-700 ring-1 ring-inset ring-green-200">
               New

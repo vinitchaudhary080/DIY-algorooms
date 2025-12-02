@@ -8,7 +8,7 @@ const navItems = [
   { label: "Home", to: "/", type: "route" },
   { label: "About", to: "/about", type: "route" },
   { label: "What’s New", to: "/features", type: "route" },
-  { label: "Blogs", to: "/blog", type: "route" }, 
+  { label: "Blogs", to: "/blog", type: "route" },
   { label: "Pricing", to: "/pricing", type: "route" },
 ];
 
@@ -86,21 +86,22 @@ export default function Navbar() {
             </Link>
 
             <a
-              href="#"
+              href="https://dashboard.algorooms.com/signin"
               className="
-                inline-flex items-center gap-2
-                rounded-2xl
-                px-5 py-3
-                text-[15px] font-semibold text-white
-                bg-gradient-to-r from-[#2048FE] to-[#1E4CEA]
-                shadow-[0_10px_30px_rgba(40,100,223,0.35)]
-                border-3 border-[#6C88FF]
-                transition-all
-                hover:shadow-[0_14px_36px_rgba(40,100,223,0.45)]
-              "
+    inline-flex items-center gap-2
+    rounded-2xl
+    px-5 py-3
+    text-[15px] font-semibold text-white
+    bg-gradient-to-r from-[#2048FE] to-[#1E4CEA]
+    shadow-[0_10px_30px_rgba(40,100,223,0.35)]
+    border-3 border-[#6C88FF]
+    transition-all
+    hover:shadow-[0_14px_36px_rgba(40,100,223,0.45)]
+  "
             >
               Get Started <ChevronRight className="h-4 w-4" />
             </a>
+
           </div>
 
           {/* Mobile menu button */}
@@ -118,9 +119,8 @@ export default function Navbar() {
 
       {/* ===== Mobile Drawer ===== */}
       <div
-        className={`md:hidden fixed inset-0 z-[60] transition-[opacity] ${
-          open ? "opacity-100" : "opacity-0 pointer-events-none"
-        }`}
+        className={`md:hidden fixed inset-0 z-[60] transition-[opacity] ${open ? "opacity-100" : "opacity-0 pointer-events-none"
+          }`}
         aria-hidden={!open}
       >
         {/* Backdrop */}
@@ -205,21 +205,22 @@ export default function Navbar() {
                 Contact <ChevronRight className="h-4 w-4" />
               </Link>
 
-              <a
-                href="#"
-                className="
-                  w-full inline-flex items-center justify-center gap-2
-                  rounded-2xl px-5 py-3 text-[15px] font-semibold text-white
-                  bg-gradient-to-r from-[#2048FE] to-[#1E4CEA]
-                  shadow-[0_10px_30px_rgba(40,100,223,0.35)]
-                  border-3 border-[#6C88FF]
-                  transition-all
-                  hover:shadow-[0_14px_36px_rgba(40,100,223,0.45)]
-                "
-                onClick={() => setOpen(false)}
-              >
-                Get Started <ChevronRight className="h-4 w-4" />
-              </a>
+           <a
+  href="https://dashboard.algorooms.com/signin"
+  className="
+    w-full inline-flex items-center justify-center gap-2
+    rounded-2xl px-5 py-3 text-[15px] font-semibold text-white
+    bg-gradient-to-r from-[#2048FE] to-[#1E4CEA]
+    shadow-[0_10px_30px_rgba(40,100,223,0.35)]
+    border-3 border-[#6C88FF]
+    transition-all
+    hover:shadow-[0_14px_36px_rgba(40,100,223,0.45)]
+  "
+  onClick={() => setOpen(false)}
+>
+  Get Started <ChevronRight className="h-4 w-4" />
+</a>
+
             </div>
           </div>
         </aside>

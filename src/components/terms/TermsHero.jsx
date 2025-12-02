@@ -1,7 +1,7 @@
 import React from "react";
 
 export default function TermsHero({
-  title = "Terms of service",
+  title = "Terms & Conditions",
   version = "New",
   date = "January 4, 2025",
 }) {

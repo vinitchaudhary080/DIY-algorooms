@@ -3,26 +3,27 @@ import React, { useState } from "react";
 
 const faqs = [
   {
-    q: "Best automated trading software for beginners?",
-    a: "Choose software that’s simple, beginner-friendly, and offers pre-built strategies. Platforms like Algorooms are perfect for getting started quickly.",
+    q: "What does this platform actually do?",
+    a: "It’s your personal trading workshop. You get to create, test, and automate your own strategies no coding required. We provide the tools, the data, and the execution engine. You bring the ideas, the curiosity, and the strategy.",
   },
   {
-    q: "How to use algo trading platforms in India?",
-    a: "Sign up, connect your broker, design or import strategies, backtest, and deploy live trades with real-time updates.",
+    q: "Does the platform give trading advice or tips?",
+    a: "Nope. And that’s the point. Instead of following someone else’s signals, you get to make your own decisions, run your own strategies, and learn along the way. The platform is your canvas—you paint your own picture.",
   },
   {
-    q: "Affordable algorithmic trading software?",
-    a: "Look for platforms with essential automation, backtesting, and real-time features at low or flexible subscription plans.",
+    q: "Who controls the results?",
+    a: "You do. Every trade, every rule, every strategy outcome is yours. The platform doesn’t make decisions for you—it executes exactly what you design. Wins or losses? That’s part of your journey.",
   },
   {
-    q: "Top trading bots for the stock market?",
-    a: "Bots that automate strategies, monitor trends, and execute orders efficiently across multiple assets are the most effective.",
+    q: "Can I run multiple strategies at the same time?",
+    a: "Yes. Run several strategies simultaneously. Each one is independent, so you can test different approaches, explore multiple ideas, and manage risk across them.",
   },
   {
-    q: "No-code trading strategy builder?",
-    a: "Allows you to create and automate strategies visually without coding — ideal for beginners and non-technical traders.",
+    q: "Is this suitable for beginners?",
+    a: "Absolutely—if you’re curious and willing to learn. You don’t need coding skills. Just a basic understanding of trading concepts and risk awareness, and you can start trading, testing, and learning by doing.",
   },
 ];
+
 
 export default function FAQ() {
   const [open, setOpen] = useState(0); // by default first open (like reference)
@@ -57,10 +58,8 @@ export default function FAQ() {
               Reach out and we’ll guide you every step of the way.
             </p>
 
-           <a
-  href="https://wa.me/917049850866"
-  target="_blank"
-  rel="noopener noreferrer"
+         <a
+  href="https://wa.me/917042132888?text=Hi%20team%2C%20I%20want%20to%20know%20more%20about%20the%20Algorooms%20dashboard%20and%20its%20features."
   className="
     mt-5
     inline-flex items-center gap-2
@@ -77,6 +76,7 @@ export default function FAQ() {
 >
   Chat with Us →
 </a>
+
 
           </div>
         </div>

@@ -39,9 +39,9 @@ export default function WhyChoose() {
           </p>
 
           <div className="mt-6">
-           <a
-  href="#"
-  className="
+            <a
+              href="https://dashboard.algorooms.com/signin"
+              className="
     mt-5
     inline-flex items-center gap-2
     rounded-2xl
@@ -54,9 +54,10 @@ export default function WhyChoose() {
     hover:shadow-[0_14px_36px_rgba(40,100,223,0.45)]
     hover:scale-[1.02]
   "
->
-  Let’s Begin with Algorooms <ChevronRight className="h-4 w-4" />
-</a>
+            >
+              Let’s Begin with Algorooms <ChevronRight className="h-4 w-4" />
+            </a>
+
 
           </div>
         </div>

@@ -33,12 +33,12 @@ export default function Charts() {
 
           {/* CTA */}
           <div className="mt-8">
-            <Link
-              to="/get-started"
+            <a
+              href="https://dashboard.algorooms.com/signin"
               className="inline-flex items-center gap-2 rounded-2xl px-5 py-3 text-[15px] font-semibold text-white
-                         bg-gradient-to-r from-[#3B66F6] to-[#1E4CEA]
-                         shadow-[0_12px_32px_rgba(40,100,223,0.38)] ring-1 ring-black/5
-                         hover:shadow-[0_16px_40px_rgba(40,100,223,0.48)] transition-all"
+             bg-gradient-to-r from-[#3B66F6] to-[#1E4CEA]
+             shadow-[0_12px_32px_rgba(40,100,223,0.38)] ring-1 ring-black/5
+             hover:shadow-[0_16px_40px_rgba(40,100,223,0.48)] transition-all"
             >
               Get Started
               <svg
@@ -52,7 +52,8 @@ export default function Charts() {
               >
                 <path d="M9 5l7 7-7 7" />
               </svg>
-            </Link>
+            </a>
+
           </div>
         </div>
 

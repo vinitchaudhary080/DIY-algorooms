@@ -66,26 +66,28 @@ export default function Hero() {
             {/* CTAs */}
             <div className="mt-8 flex flex-wrap items-center gap-6">
               <a
-                href="#"
+                href="https://dashboard.algorooms.com/signin"
                 className="
-                  inline-flex items-center gap-2 rounded-2xl px-5 py-3
-                  text-[15px] font-semibold text-white
-                  bg-gradient-to-r from-[#3B66F6] to-[#1E4CEA]
-                  shadow-[0_10px_30px_rgba(40,100,223,0.35)]
-                  border-3 border-[#6C88FF]
-                  transition-all
-                  hover:shadow-[0_14px_36px_rgba(40,100,223,0.45)]
-                "
+    inline-flex items-center gap-2 rounded-2xl px-5 py-3
+    text-[15px] font-semibold text-white
+    bg-gradient-to-r from-[#3B66F6] to-[#1E4CEA]
+    shadow-[0_10px_30px_rgba(40,100,223,0.35)]
+    border-3 border-[#6C88FF]
+    transition-all
+    hover:shadow-[0_14px_36px_rgba(40,100,223,0.45)]
+  "
               >
                 Let’s Begin <ChevronRight className="h-4 w-4" />
               </a>
 
+
               <a
-                href="#"
+                href="#feature-listing"
                 className="inline-flex items-center gap-2 text-[15px] font-semibold text-neutral-800 hover:opacity-80"
               >
                 Find Out More <ChevronRight className="h-4 w-4" />
               </a>
+
             </div>
 
             {/* ===== Mobile/Tablet Image (NO BORDER) ===== */}
