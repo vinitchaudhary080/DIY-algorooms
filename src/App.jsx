@@ -15,6 +15,8 @@ import StratCrypto from "@/pages/blog/StratCrypto";
 import Cryptocurrency from "@/pages/blog/Cryptocurrency";
 import Blockchain from "@/pages/blog/Blockchain";
 import FAQFullPage from "./pages/FAQFull";
+import BottomDisclaimer from "./components/BottomDisclaimer";
+
 
 
 export default function App() {
@@ -38,6 +40,7 @@ export default function App() {
       <Route path="/faq" element={<FAQFullPage />} />
        
     </Routes>
+    <BottomDisclaimer />
     </>
   );
 }
