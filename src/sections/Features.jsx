@@ -45,28 +45,30 @@ export default function Features() {
           <div className="flex flex-col items-center text-center p-8">
             <div
               className="
-      w-[100%] sm:w-full
-      max-w-[640px]
-      rounded-2xl 
-      transition-all duration-300
-    "
+                w-[100%] sm:w-full
+                max-w-[640px]
+                rounded-2xl 
+                transition-all duration-300
+              "
             >
               <img
                 src={feature1}
-                alt="Strategy Templates"
+                alt="Workflow Builder"
                 className="
-        w-full h-auto object-contain
-        scale-[1.1] sm:scale-[1.05]
-        transition-transform duration-500
-      "
+                  w-full h-auto object-contain
+                  scale-[1.1] sm:scale-[1.05]
+                  transition-transform duration-500
+                "
               />
             </div>
 
             <h3 className="mt-8 text-xl font-semibold text-neutral-900">
-              RA-Based Strategy Templates
+              Build Custom Rule Based Workflows
             </h3>
             <p className="mt-3 text-sm text-neutral-500 max-w-sm mx-auto leading-relaxed">
-              Design, test, and refine trading models instantly with no-code strategy builder templates  simplifying algorithm creation without complex coding.
+              Design and structure your own rule based logic without coding.
+              Algorooms provides a flexible DIY workspace where you can create
+              and modify workflows based on your individual approach.
             </p>
           </div>
 

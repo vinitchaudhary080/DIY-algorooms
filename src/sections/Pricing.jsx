@@ -171,9 +171,10 @@ export default function Pricing() {
           </span>
 
           <h2 className="mt-4 text-4xl sm:text-5xl font-semibold leading-tight tracking-tight text-neutral-900">
-            Smart Options To Power <br className="hidden sm:block" />
-            Your Trading Journey.
-          </h2>
+  Flexible Plans To Support <br className="hidden sm:block" />
+  Your Automation Workflow.
+</h2>
+
 
           {/* Tabs (Monthly / Quarterly / Yearly) */}
           <div className="mt-6 inline-block relative sm:pr-8">

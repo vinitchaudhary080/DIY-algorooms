@@ -14,7 +14,7 @@ import {
 const FEATURES = [
   { label: "Customised Strategy", icon: Settings2 },
   { label: "1-Click Deployed", icon: Zap },
-  { label: "Strategy Templates", icon: ClipboardList },
+  { label: "Top User Strategy ", icon: ClipboardList },
   { label: "Backtest Tool", icon: BarChart2 },
   { label: "Broker-wise Reports", icon: FileChartColumn },
 ];

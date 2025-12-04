@@ -43,7 +43,10 @@ export default function Strategies() {
           </h2>
 
           <p className="mt-4 text-neutral-600">
-            Keep projects, data, and communication together in a single, organized workflow so decisions are faster and distractions are fewer with algo trading software, automated trading software, and algo trading platform.
+             Keep your rule based workflows, data, and activity together in a
+            single organised view. Review what is running, track changes, and
+            manage your work in one place using your connected broker account,
+            while every decision remains completely in your control.
           </p>
 
           <hr className="mt-8 mb-6 border-neutral-200/70" />

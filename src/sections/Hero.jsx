@@ -40,27 +40,29 @@ export default function Hero() {
                 <span className="inline-flex items-center justify-center rounded-full bg-[#3B66F6] px-2 py-0.5 text-white">
                   Algorooms
                 </span>
-                <span className="text-neutral-600/90 font-medium">Aligned & Evolvingr</span>
+                <span className="text-neutral-600/90 font-medium">
+                  DIY Automation Workspace
+                </span>
               </span>
             </div>
 
             {/* heading */}
             <h1 className="text-[40px] leading-[1.05] sm:text-6xl sm:leading-[1.03] font-black font-semibold tracking-tight text-neutral-900">
-              Power{" "}
+              DIY Platform{" "}
               <img
                 src={boltIcon}
                 alt=""
                 className="inline-block align-middle h-16 w-16 sm:h-24 sm:w-24 mx-1 translate-y-[-2px] drop-shadow-[0_10px_22px_rgba(59,102,246,.35)]"
                 draggable="false"
               />{" "}
-              Up Your
-              <br />
-              Maximize Your Profits.
+              For Your Seamless Trading Experience
             </h1>
 
             {/* subtext */}
             <p className="mt-5 max-w-xl text-base sm:text-lg text-neutral-500">
-              Create strategies in minutes and test with confidence. Automate every trade for faster results. Capture opportunities instantly with real-time execution.
+              Build and run your own rule-based workflows using your connected
+              broker account. Every action, decision, and outcome remains
+              completely in your control. Algorooms simply provides the tools.
             </p>
 
             {/* CTAs */}
@@ -68,26 +70,24 @@ export default function Hero() {
               <a
                 href="https://dashboard.algorooms.com/signin"
                 className="
-    inline-flex items-center gap-2 rounded-2xl px-5 py-3
-    text-[15px] font-semibold text-white
-    bg-gradient-to-r from-[#3B66F6] to-[#1E4CEA]
-    shadow-[0_10px_30px_rgba(40,100,223,0.35)]
-    border-3 border-[#6C88FF]
-    transition-all
-    hover:shadow-[0_14px_36px_rgba(40,100,223,0.45)]
-  "
+                  inline-flex items-center gap-2 rounded-2xl px-5 py-3
+                  text-[15px] font-semibold text-white
+                  bg-gradient-to-r from-[#3B66F6] to-[#1E4CEA]
+                  shadow-[0_10px_30px_rgba(40,100,223,0.35)]
+                  border-3 border-[#6C88FF]
+                  transition-all
+                  hover:shadow-[0_14px_36px_rgba(40,100,223,0.45)]
+                "
               >
-                Let’s Begin <ChevronRight className="h-4 w-4" />
+                Start Building <ChevronRight className="h-4 w-4" />
               </a>
-
 
               <a
                 href="#feature-listing"
                 className="inline-flex items-center gap-2 text-[15px] font-semibold text-neutral-800 hover:opacity-80"
               >
-                Find Out More <ChevronRight className="h-4 w-4" />
+                Explore Platform <ChevronRight className="h-4 w-4" />
               </a>
-
             </div>
 
             {/* ===== Mobile/Tablet Image (NO BORDER) ===== */}

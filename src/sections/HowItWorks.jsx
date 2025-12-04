@@ -38,23 +38,25 @@ export default function HowItWorks() {
     <section id="how-it-works" className="bg-transparent py-20 sm:py-28 scroll-mt-nav">
       <div className="container-xxl">
         {/* ===== centered heading block ===== */}
-        <div className="text-center max-w-3xl mx-auto">
-          <span className="inline-flex items-center gap-2 rounded-full bg-white px-3 py-1 text-xs text-black font-semibold ring-2 ring-[#F6F6F9]">
-            <span className="h-2.5 w-2.5 rounded-full bg-[#3B66F6]" />
-            Simplify Your Automation
-          </span>
+       <div className="text-center max-w-3xl mx-auto">
+  <span className="inline-flex items-center gap-2 rounded-full bg-white px-3 py-1 text-xs text-black font-semibold ring-2 ring-[#F6F6F9]">
+    <span className="h-2.5 w-2.5 rounded-full bg-[#3B66F6]" />
+    Simplify Your Automation
+  </span>
 
-          <h2 className="mt-5 text-4xl sm:text-5xl font-semibold leading-tight tracking-tight text-neutral-900">
-            Turn Complex Workflows
-            <br className="hidden sm:block" />
-            into Simple Steps.
-          </h2>
+  <h2 className="mt-5 text-4xl sm:text-5xl font-semibold leading-tight tracking-tight text-neutral-900">
+    Turn Complex Workflows
+    <br className="hidden sm:block" />
+    into Simple Steps.
+  </h2>
 
-          <p className="mt-4 text-[15px] sm:text-base text-neutral-500">
-            Three straightforward steps to connect your data, automate trades, and track performance with your algo trading platform.
-            
-          </p>
-        </div>
+  <p className="mt-4 text-[15px] sm:text-base text-neutral-500">
+    Follow a clear step by step process to connect your broker account, define
+    your own rules, and let Algorooms handle the technical execution exactly as
+    you configure it.
+  </p>
+</div>
+
 
         {/* ===== 3 cards ===== */}
         <div className="mt-12 sm:mt-16 grid grid-cols-1 md:grid-cols-3 gap-6 sm:gap-8">
