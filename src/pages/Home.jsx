@@ -67,15 +67,15 @@ export default function Home() {
 
       {/* Testimonials */}
       <Reveal effect="fade-up"><Testimonials /></Reveal>
-      <Reveal effect="fade-up"><VideoTestimonials /></Reveal> 
+      {/* <Reveal effect="fade-up"><VideoTestimonials /></Reveal>  */}
 
       {/* Pricing */}
       <Reveal effect="fade-up"><Pricing /></Reveal> 
 
       {/* Blog Section */}
-      <section id="blogs" className="scroll-mt-nav">
+      {/* <section id="blogs" className="scroll-mt-nav">
         <Reveal effect="fade-up"><Blog /></Reveal>
-      </section>
+      </section> */}
 
       {/* FAQ Section */}
       <section id="faq" className="scroll-mt-nav">

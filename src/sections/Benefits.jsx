@@ -13,7 +13,7 @@ const BENEFITS = [
   {
     icon: BarChart3,
     title: "Real-time Market Advantage",
-    desc: "Make faster moves with a real-time trading system that updates trades as markets shift.",
+    desc: "View the current status of your rule based workflows and related events in a clear and organised way.",
   },
   {
     icon: Users2,
@@ -22,8 +22,8 @@ const BENEFITS = [
   },
   {
     icon: Sparkles,
-    title: "Simplified Trade Management",
-    desc: "Handle everything  from setup to execution within a unified algorithmic trading platform.",
+     title: "Connected Broker Integrations",
+    desc: "Link your supported broker accounts and manage workflow activity from one unified place.",
   },
   {
     icon: Plug,
@@ -32,8 +32,8 @@ const BENEFITS = [
   },
   {
     icon: Layers,
-    title: "Scalable Growth Support",
-    desc: "Grow smoothly from beginner to pro level with an adaptable automated trading platform.",
+    title: "Scalable Automation Setup",
+    desc: "Add new workflows and conditions over time without changing the way you manage your automation.",
   },
   {
     icon: MessageCircle,

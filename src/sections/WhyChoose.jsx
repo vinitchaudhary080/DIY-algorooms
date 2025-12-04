@@ -12,10 +12,10 @@ import {
 } from "lucide-react";
 
 const FEATURES = [
-  { label: "Customised Strategy", icon: Settings2 },
+  { label: "Custom Your Workflow Setup", icon: Settings2 },
   { label: "1-Click Deployed", icon: Zap },
-  { label: "Top User Strategy ", icon: ClipboardList },
-  { label: "Backtest Tool", icon: BarChart2 },
+  
+  { label: "Backtest & Optimize", icon: BarChart2 },
   { label: "Broker-wise Reports", icon: FileChartColumn },
 ];
 
@@ -25,22 +25,24 @@ export default function WhyChoose() {
       <div className="container-xxl grid md:grid-cols-2 gap-12 lg:gap-16 items-start">
         {/* LEFT SIDE */}
         <div>
-          <div className="inline-flex items-center gap-2 rounded-full bg-white px-3 py-1 text-xs text-black font-semibold ring-2 ring-[#F6F6F9]">
-            <span className="h-2 w-2 rounded-full bg-[#3B66F6]" />
-            Why Algorooms Leads the Way
-          </div>
+         <div className="inline-flex items-center gap-2 rounded-full bg-white px-3 py-1 text-xs text-black font-semibold ring-2 ring-[#F6F6F9]">
+  <span className="h-2 w-2 rounded-full bg-[#3B66F6]" />
+  Why Users Choose Algorooms
+</div>
 
-          <h2 className="mt-4 text-[34px] sm:text-5xl font-semibold  leading-tight tracking-tight text-neutral-900">
-            The smarter way to <br /> launch and grow.
-          </h2>
+<h2 className="mt-4 text-[34px] sm:text-5xl font-semibold leading-tight tracking-tight text-neutral-900">
+  A simpler way to manage <br /> your automation.
+</h2>
 
-          <p className="mt-4 max-w-md text-neutral-600">
-            Everything you need in one place easy setup, full transparency, and seamless customization to get you started faster.
-          </p>
+<p className="mt-4 max-w-md text-neutral-600">
+  Organize your workflows, connect your broker, and manage everything from 
+  one unified place built for ease, clarity, and full user control.
+</p>
+
 
           <div className="mt-6">
             <a
-              href="https://dashboard.algorooms.com/signin"
+              href="https://web.algorooms.com/login"
               className="
     mt-5
     inline-flex items-center gap-2

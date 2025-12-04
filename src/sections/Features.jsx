@@ -63,7 +63,7 @@ export default function Features() {
             </div>
 
             <h3 className="mt-8 text-xl font-semibold text-neutral-900">
-              Build Custom Rule Based Workflows
+              Build Your Own Custom Rule Based Workflows
             </h3>
             <p className="mt-3 text-sm text-neutral-500 max-w-sm mx-auto leading-relaxed">
               Design and structure your own rule based logic without coding.
@@ -123,10 +123,10 @@ export default function Features() {
             </div>
 
             <h3 className="mt-8 text-xl font-semibold text-neutral-900">
-              From Idea to Execution
+              Turn Your Idea Into Execution
             </h3>
             <p className="mt-3 text-sm text-neutral-500 max-w-sm mx-auto leading-relaxed">
-              Turn your strategies into action  create, test, and automate every trade with intelligent backtesting and real-time deployment.
+              Turn your own strategies into action  create, test, and automate every trade with intelligent backtesting and real-time deployment.
 
             </p>
           </div>

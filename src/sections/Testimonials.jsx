@@ -21,15 +21,57 @@ function Stars({ value = 5 }) {
 }
 
 const items = [
-  { text: "Algo helped us launch in hours, not days. Super smooth process.", name: "Alex B.", role: "Product Manager", rating: 5 },
-  { text: "I used Algo for 3 projects — it saved me so much time.", name: "Jasmine R.", role: "Freelance Developer", rating: 5 },
-  { text: "From idea to launch, Algo made everything effortless.", name: "Leo D.", role: "Founder", rating: 5 },
-  { text: "The layout is cleaner and works right out of the box.", name: "Marta G.", role: "UI Designer", rating: 4 },
-  { text: "Algo gave us a professional site in no time — exactly what we needed.", name: "Daniel K.", role: "Startup Founder", rating: 5 },
-  { text: "Super easy to use and saves hours of design work.", name: "Sophia L.", role: "Marketing Lead", rating: 5 },
-  { text: "Clean, modern, and flexible — fits perfectly with our brand.", name: "Chris M.", role: "Indie Hacker", rating: 5 },
-  { text: "I built faster with a better experience overall.", name: "Neeraj S.", role: "Engineer", rating: 4 },
+  {
+    text: "Interface kaafi clean hai, setup karna bhi easy laga. Pehle din se comfortable tha.",
+    name: "Rohit Mehra",
+    role: "Mumbai",
+    rating: 5,
+  },
+  {
+    text: "Strategy create karna genuinely simple hai. No coding, bas rules set karo and done.",
+    name: "Priya Sharma",
+    role: "Bengaluru",
+    rating: 5,
+  },
+  {
+    text: "Workflow banana easy tha and UI intuitive. Mujhe koi confusion nahi hua.",
+    name: "Farhan Ali",
+    role: "Hyderabad",
+    rating: 5,
+  },
+  {
+    text: "Good experience overall. Workflow steps clearly show ho jaate hain.",
+    name: "Vikram Singh",
+    role: "Gurugram",
+    rating: 4,
+  },
+  {
+    text: "Simple to use and quick to set up. Daily monitoring bhi easy hai.",
+    name: "Ananya Iyer",
+    role: "Chennai",
+    rating: 4,
+  },
+  {
+    text: "Kaafi helpful platform hai. Workflow activity ek jagah dekhna convenient hai.",
+    name: "Sandeep R.",
+    role: "Pune",
+    rating: 4,
+  },
+  {
+    text: "UI light and smooth. Workflow samajhne me zyada time nahi laga.",
+    name: "Megha Joshi",
+    role: "Ahmedabad",
+    rating: 4,
+  },
+  {
+    text: "Easy to get started and support bhi responsive tha.",
+    name: "Kritika Jain",
+    role: "Jaipur",
+    rating: 4,
+  },
 ];
+
+
 
 export default function Testimonials() {
   return (

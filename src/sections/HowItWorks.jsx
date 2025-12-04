@@ -45,7 +45,7 @@ export default function HowItWorks() {
   </span>
 
   <h2 className="mt-5 text-4xl sm:text-5xl font-semibold leading-tight tracking-tight text-neutral-900">
-    Turn Complex Workflows
+    Turn Your Complex Workflows
     <br className="hidden sm:block" />
     into Simple Steps.
   </h2>
@@ -60,18 +60,19 @@ export default function HowItWorks() {
 
         {/* ===== 3 cards ===== */}
         <div className="mt-12 sm:mt-16 grid grid-cols-1 md:grid-cols-3 gap-6 sm:gap-8">
-          <StepCard
-            step={1}
-            title="Build Your Strategy"
-            desc="Integrate your data and create strategies in minutes no coding or heavy setup needed with our algo strategy builder."
-            img={stepImg1}
-            alt="Create Strategy bar chart"
-          />
+         <StepCard
+  step={1}
+  title="Create Your Workflow"
+  desc="Define your own rule based logic by connecting your data and configuring conditions exactly the way you want, without coding or complex setup."
+  img={stepImg1}
+  alt="Create workflow bar chart"
+/>
+
 
           <StepCard
             step={2}
             title="Backtest & Optimize"
-            desc=" Test your strategies with smart triggers and recurring automation, so you can focus on refining what works best with backtesting tools."
+            desc=" Check how your rule based workflow behaves using historical data and adjust your conditions as needed, all within a clear and simple review process."
             img={stepImg2}
             alt="Backtest Strategy waveform"
           />
@@ -79,7 +80,7 @@ export default function HowItWorks() {
           <StepCard
             step={3}
             title="Deploy & Monitor"
-            desc="Deploy your strategies live, track real-time performance, and optimize workflow with actionable insights from our real-time trading system."
+            desc="Run your configured workflow through your connected broker account and keep an eye on its activity with clear, real time status updates."
             img={stepImg3}
             alt="Deployed Strategy gauge"
           />

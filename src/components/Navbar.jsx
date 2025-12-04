@@ -7,8 +7,8 @@ import logo from "../assets/logo.svg";
 const navItems = [
   { label: "Home", to: "/", type: "route" },
   { label: "About", to: "/about", type: "route" },
-  { label: "What’s New", to: "/features", type: "route" },
-  { label: "Blogs", to: "/blog", type: "route" },
+  // { label: "What’s New", to: "/features", type: "route" },
+  // { label: "Blogs", to: "/blog", type: "route" },
   { label: "Pricing", to: "/pricing", type: "route" },
 ];
 
@@ -86,7 +86,7 @@ export default function Navbar() {
             </Link>
 
             <a
-              href="https://dashboard.algorooms.com/signin"
+              href="https://web.algorooms.com/login"
               className="
     inline-flex items-center gap-2
     rounded-2xl
@@ -206,7 +206,7 @@ export default function Navbar() {
               </Link>
 
            <a
-  href="https://dashboard.algorooms.com/signin"
+  href="https://web.algorooms.com/login"
   className="
     w-full inline-flex items-center justify-center gap-2
     rounded-2xl px-5 py-3 text-[15px] font-semibold text-white

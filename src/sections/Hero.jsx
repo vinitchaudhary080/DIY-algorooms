@@ -41,7 +41,7 @@ export default function Hero() {
                   Algorooms
                 </span>
                 <span className="text-neutral-600/90 font-medium">
-                  DIY Automation Workspace
+                  Do It Yourself Platfrom
                 </span>
               </span>
             </div>
@@ -52,9 +52,10 @@ export default function Hero() {
               <img
                 src={boltIcon}
                 alt=""
-                className="inline-block align-middle h-16 w-16 sm:h-24 sm:w-24 mx-1 translate-y-[-2px] drop-shadow-[0_10px_22px_rgba(59,102,246,.35)]"
+                className="inline-block align-middle h-12 w-12 sm:h-20 sm:w-20 mx-1 translate-y-[-2px] drop-shadow-[0_10px_22px_rgba(59,102,246,.35)]"
                 draggable="false"
               />{" "}
+              <br/>
               For Your Seamless Trading Experience
             </h1>
 
@@ -68,7 +69,7 @@ export default function Hero() {
             {/* CTAs */}
             <div className="mt-8 flex flex-wrap items-center gap-6">
               <a
-                href="https://dashboard.algorooms.com/signin"
+                href="https://web.algorooms.com/login"
                 className="
                   inline-flex items-center gap-2 rounded-2xl px-5 py-3
                   text-[15px] font-semibold text-white

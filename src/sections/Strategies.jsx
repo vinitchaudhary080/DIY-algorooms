@@ -43,7 +43,7 @@ export default function Strategies() {
           </h2>
 
           <p className="mt-4 text-neutral-600">
-             Keep your rule based workflows, data, and activity together in a
+             Keep your own rule based workflows, data, and activity together in a
             single organised view. Review what is running, track changes, and
             manage your work in one place using your connected broker account,
             while every decision remains completely in your control.

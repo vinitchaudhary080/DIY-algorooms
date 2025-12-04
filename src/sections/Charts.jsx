@@ -24,13 +24,13 @@ export default function Charts() {
 
           {/* heading */}
           <h2 className="text-4xl sm:text-5xl font-semibold tracking-tight leading-tight text-neutral-900">
-            Automate Your
+            Automate Your Own
             <br /> Rule Based Workflows
           </h2>
 
           {/* subtext */}
           <p className="mt-5 text-neutral-600 max-w-md leading-relaxed">
-            Reduce repetitive manual steps by letting your self defined rules
+            Reduce repetitive manual steps by letting your own self defined rules
             run automatically through your connected broker account. You decide
             the logic and conditions, while Algorooms focuses on handling the
             technical execution in the background.
@@ -39,7 +39,7 @@ export default function Charts() {
           {/* CTA */}
           <div className="mt-8">
             <a
-              href="https://dashboard.algorooms.com/signin"
+              href="https://web.algorooms.com/login"
               className="inline-flex items-center gap-2 rounded-2xl px-5 py-3 text-[15px] font-semibold text-white
              bg-gradient-to-r from-[#3B66F6] to-[#1E4CEA]
              shadow-[0_12px_32px_rgba(40,100,223,0.38)] ring-1 ring-black/5

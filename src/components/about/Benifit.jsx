@@ -1,27 +1,27 @@
 // src/sections/Benefits.jsx
 import React from "react";
-import { BarChart3, Users, Sparkles, PlugZap } from "lucide-react";
+import { BarChart3, Users, Sparkles, MessageCircle } from "lucide-react";
 
 const items = [
   {
     icon: BarChart3,
-    title: "Real-time Analytics",
-    desc: "Lorem ipsum dolor sit amet consectetur. Id tincidunt amet mollis risus ultrices integer donec aenean id.",
+      title: "Real-time Analytics",
+    desc: "Track market movement and strategy activity with instant updates for clearer trade decisions.",
   },
   {
     icon: Users,
-    title: "Collaboration Tools",
-    desc: "Lorem ipsum dolor sit amet consectetur. Id tincidunt amet mollis risus ultrices integer donec aenean id.",
+    title: "Smarter Strategy Building",
+    desc: "Build and test trading plans efficiently using a backtesting tool designed for accuracy and ease.",
   },
   {
     icon: Sparkles,
-    title: "AI-Powered Insights",
-    desc: "Lorem ipsum dolor sit amet consectetur. Id tincidunt amet mollis risus ultrices integer donec aenean id.",
+    title: "Connected Broker Integrations",
+    desc: "Link your supported broker accounts and manage workflow activity from one unified place.",
   },
   {
-    icon: PlugZap,
-    title: "Custom Integrations",
-    desc: "Lorem ipsum dolor sit amet consectetur. Id tincidunt amet mollis risus ultrices integer donec aenean id.",
+    icon: MessageCircle,
+    title: "Reliable 24/7 Support",
+    desc: "Get continuous assistance so your trades stay active without interruptions.",
   },
 ];
 

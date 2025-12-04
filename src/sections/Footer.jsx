@@ -12,34 +12,34 @@ export default function Footer() {
       <div className="container-xxl text-center py-16 sm:py-20">
         {/* Centered Heading with inline icon */}
         <div className="flex flex-col items-center justify-center">
-  <h2 className="text-[36px] sm:text-[48px] md:text-[56px] font-black leading-[1.15] font-semibold tracking-tight text-neutral-900 flex flex-wrap items-center justify-center gap-2 text-center">
-    <span>Unlock the</span>
-    <span className="inline-flex items-center gap-2">
-      <img
-        src={powerIcon}
-        alt="Power Icon"
-        className="h-16 w-16 sm:h-24 sm:w-24 align-middle drop-shadow-[0_6px_16px_rgba(59,102,246,0.35)]"
-        draggable="false"
-      />
-      <span className="text-[#3B66F6]">Power</span>
-    </span>
-  </h2>
+          <h2 className="text-[36px] sm:text-[48px] md:text-[56px] font-black leading-[1.15] font-semibold tracking-tight text-neutral-900 flex flex-wrap items-center justify-center gap-2 text-center">
+            <span>Unlock the</span>
+            <span className="inline-flex items-center gap-2">
+              <img
+                src={powerIcon}
+                alt="Power Icon"
+                className="h-16 w-16 sm:h-24 sm:w-24 align-middle drop-shadow-[0_6px_16px_rgba(59,102,246,0.35)]"
+                draggable="false"
+              />
+              <span className="text-[#3B66F6]">Power</span>
+            </span>
+          </h2>
 
-  <h2 className="text-[36px] sm:text-[48px] md:text-[56px] font-black font-semibold leading-[1.15] tracking-tight text-neutral-900 text-center">
-    of Your Workflow Automation
-  </h2>
-</div>
+          <h2 className="text-[36px] sm:text-[48px] md:text-[56px] font-black font-semibold leading-[1.15] tracking-tight text-neutral-900 text-center">
+            of Your Workflow Automation
+          </h2>
+        </div>
 
-{/* Subtitle */}
-<p className="mt-4 max-w-2xl mx-auto text-[15px] text-neutral-600">
-  Create your own rule based processes and run them automatically using your connected broker account while keeping every decision fully in your control.
-</p>
+        {/* Subtitle */}
+        <p className="mt-4 max-w-2xl mx-auto text-[15px] text-neutral-600">
+          Create your own rule based processes and run them automatically using your connected broker account while keeping every decision fully in your control.
+        </p>
 
 
         {/* Button */}
         <div className="mt-6">
           <a
-            href="https://dashboard.algorooms.com/signin"
+            href="https://web.algorooms.com/login"
             className="
     inline-flex items-center gap-2
     rounded-2xl
@@ -71,7 +71,7 @@ export default function Footer() {
               </Link>
 
               <p className="mt-3 text-sm text-neutral-600 max-w-xs leading-relaxed">
-                Simplifying trading with smart strategies and seamless automation.
+                Build smarter, automate faster, trade with confidence.
               </p>
 
               <div className="mt-4 flex items-center gap-3">
@@ -128,14 +128,14 @@ export default function Footer() {
                     </Link>
                   </li>
                   <li>
-                    <Link to="/features" className="hover:text-neutral-900">
+                    {/* <Link to="/features" className="hover:text-neutral-900">
                       Features
-                    </Link>
+                    </Link> */}
                   </li>
                   <li>
-                    <Link to="/blog" className="hover:text-neutral-900">
+                    {/* <Link to="/blog" className="hover:text-neutral-900">
                       Blog
-                    </Link>
+                    </Link> */}
                   </li>
                 </ul>
               </div>

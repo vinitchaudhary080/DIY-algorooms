@@ -22,20 +22,20 @@ const items = [
       "Connect your TradingView charts to your broker so your self defined rules can trigger orders directly from the chart layout you already use.",
     image: imgTradingView,
   },
-  {
-    id: "cnc-btst",
-    title: "CNC & BTST Order Support",
-    subtitle:
-      "Set up rule based CNC and BTST orders and let Algorooms pass them to your connected broker exactly as you configure them.",
-    image: imgCncBtst,
-  },
-  {
-    id: "potential",
-    title: "Opportunity Scanner",
-    subtitle:
-      "Use your own conditions to scan symbols and highlight instruments that match your rule set, reducing repetitive manual checks.",
-    image: imgPotential,
-  },
+  // {
+  //   id: "cnc-btst",
+  //   title: "CNC & BTST Order Support",
+  //   subtitle:
+  //     "Set up rule based CNC and BTST orders and let Algorooms pass them to your connected broker exactly as you configure them.",
+  //   image: imgCncBtst,
+  // },
+  // {
+  //   id: "potential",
+  //   title: "Opportunity Scanner",
+  //   subtitle:
+  //     "Use your own conditions to scan symbols and highlight instruments that match your rule set, reducing repetitive manual checks.",
+  //   image: imgPotential,
+  // },
   {
     id: "equity-options",
     title: "Equity, Options & Futures",
@@ -43,13 +43,13 @@ const items = [
       "Run the same rule based workflows across supported segments in your connected broker account from one unified workspace.",
     image: imgEquityOptions,
   },
-  {
-    id: "price-action",
-    title: "Price Action Focused Views",
-    subtitle:
-      "Review price movement using integrated chart views and your preferred indicators while your rules run in the background as configured by you.",
-    image: imgPriceAction,
-  },
+  // {
+  //   id: "price-action",
+  //   title: "Price Action Focused Views",
+  //   subtitle:
+  //     "Review price movement using integrated chart views and your preferred indicators while your rules run in the background as configured by you.",
+  //   image: imgPriceAction,
+  // },
 ];
 
 export default function FeatureListing() {
